@@ -16,12 +16,6 @@ A modern, responsive finance dashboard built with React.js and Tailwind CSS. Thi
 - Categorization of expenses
 - Date range filtering
 
-### AI-Powered Financial Assistant
-- 🤖 **AI Chatbot**
-  - Get instant answers to financial queries
-  - Receive personalized budget recommendations
-  - Ask questions about your spending patterns
-  - Get financial tips and guidance
 
 ### Data Visualization
 - Interactive charts using Chart.js
@@ -185,4 +179,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ by [KARTIK THAKUR]
+Built with ❤️ by [chetan-solanki]
