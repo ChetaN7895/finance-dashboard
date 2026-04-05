@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 antialiased;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+  }
+}
+
+@layer components {
+
+  /* Buttons: Base styles first, then responsive prefixes */
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-medium transition-colors duration-200 text-sm sm:text-base sm:px-5 sm:py-2.5;
+    /* This replaces @screen sm */
+  }
+
+  .btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-800 shadow-sm;
+  }
+
+  .btn-outline {
+    @apply border border-gray-300 bg-transparent text-gray-700 hover:bg-gray-50;
+  }
+
+  /* Responsive Card */
+  .card {
+    @apply bg-white rounded-lg shadow-sm p-4 md:p-6 md:shadow-md lg:p-8;
+  }
+
+  /* Responsive Input */
+  .input-field {
+    @apply w-full p-3 border border-gray-300 rounded-md outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 text-base md:p-2 md:text-sm;
+  }
+
+  /* Responsive Grid */
+  .responsive-grid {
+    @apply grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6;
+  }
+}
